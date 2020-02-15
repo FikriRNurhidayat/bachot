@@ -1,0 +1,50 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  justify-content:flex-end;
+  overflow-y:auto;
+}
+
+.empty-container {
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+
+.login-form {
+  text-align:center;
+}
+
+.login-form input {
+  min-height: 0 !important;
+}
+
+.login-form .ant-form-explain {
+  margin-top:8px;
+}
+
+.chat-content {
+  padding:16px 16px 0px 16px !important;
+  flex-basis:90%;
+}
+
+.chat-input textarea {
+  font-family: 'Roboto', sans-serif !important;
+  border-radius: unset !important;
+  font-size:20px !important;
+  padding:8px 16px !important;
+}
+
+.chat-input {
+  display:inline-flex;
+}
+
+.chat-input button {
+  font-family: 'Roboto', sans-serif !important;
+  font-size:20px !important;
+  border-radius:unset !important;
+  height:100% !important;
+  min-width:5%;
+}
